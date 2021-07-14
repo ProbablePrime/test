@@ -54,7 +54,7 @@ body:
     attributes:
       label: How often does it happen?
       options:
-        - "Sometimes (Default)"
+        - "Sometimes"
         - "Always"
         - "Only Once"
     validations:
@@ -80,10 +80,10 @@ body:
     attributes:
       label: What Platforms does this occur on?
       options:
-        - label: Any
-        - label: Windows
-        - label: Linux
-        - label: Android / Quest
+        - "Any"
+        - "Windows"
+        - "Linux"
+        - "Android / Quest"
     validations:
       required: true
   - type: input

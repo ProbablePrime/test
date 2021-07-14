@@ -80,10 +80,10 @@ body:
     attributes:
       label: What Platforms does this occur on?
       options:
-        - "Any"
-        - "Windows"
-        - "Linux"
-        - "Android / Quest"
+        - label: "Any"
+        - label: "Windows"
+        - label: "Linux"
+        - label: "Android / Quest"
     validations:
       required: true
   - type: input

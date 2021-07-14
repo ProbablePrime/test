@@ -87,7 +87,7 @@ body:
     validations:
       required: true
   - type: input
-    id: reproduction
+    id: reproduction-items
     attributes:
       label: Link to Reproduction Item/World
       description: Optional, but can speed up response for more complex reproduction cases

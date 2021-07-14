@@ -49,7 +49,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: occurence
+    id: occurrence
     attributes:
       label: How often does it happen?
       options:
@@ -59,12 +59,12 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: repitition
+    id: repetition
     attributes:
       label: Does the bug persist after restarting Neos?
       options:
-        - "No"
-        - "Yes"
+        - label: "No"
+        - label: "Yes"
     validations:
       required: true
   - type: input

@@ -59,22 +59,12 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: occurence
-    attributes:
-      label: How often does it happen?
-      options:
-        - Sometimes (Default)
-        - Always
-        - Only Once
-    validations:
-      required: true
-  - type: dropdown
     id: repitition
     attributes:
       label: Does the bug persist after restarting Neos?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
     validations:
       required: true
   - type: input

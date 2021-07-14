@@ -54,9 +54,9 @@ body:
     attributes:
       label: How often does it happen?
       options:
-        - label: Sometimes (Default)
-        - label: Always
-        - label: Only Once
+        - "Sometimes (Default)"
+        - "Always"
+        - "Only Once"
     validations:
       required: true
   - type: dropdown

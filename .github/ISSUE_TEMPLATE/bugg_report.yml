@@ -3,6 +3,7 @@ description: Something isn't working correctly
 labels: [Bug]
 body:
   - type: markdown
+    id: introduction
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!

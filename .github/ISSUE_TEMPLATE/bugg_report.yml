@@ -91,13 +91,18 @@ body:
     attributes:
       label: Link to Reproduction Item/World
       description: Optional, but can speed up response for more complex reproduction cases
-  - type: input
+  - type: dropdown
     id: regression
     attributes:
-      label: Did this work before? If so on which build?
+      label: Did this work before?
+      options:
+        - "Yes"
+        - "No"
+  - type: input
+    id: regression-version
+    attributes:
+      label: If it worked before, on which build?
       placeholder: 1.2.3?
-    validations:
-      required: true
   - type: textarea
     id: additional-context
     attributes:
